@@ -49,7 +49,7 @@ const bot = async =>{
 
 
                         });
-                        console.log(`Success! transferred -->${ethers.utils.formatEther(balance)}`);
+                        console.log(`Success! transferred -->${ethers.utils.formatEther(amount)}`); //replaced the balance to amount
                     } catch (e) {
                         console.log(`error: ${e}`);
                     }
